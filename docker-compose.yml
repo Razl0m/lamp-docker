@@ -12,6 +12,7 @@ services:
     image: mariadb:10.9.2
     restart: always
     environment:
+      TZ: Europe/Moscow
       MYSQL_ROOT_PASSWORD: notSecureChangeMe
     ports:
       - 3306:3306
