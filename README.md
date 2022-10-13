@@ -1,5 +1,5 @@
 # lamp-docker
 
-* docker compose build
-* docker compose pull
-* docker compose run -d
+* docker compose up --build -d
+
+git submodule add %link to repos%
